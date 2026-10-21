@@ -17,8 +17,12 @@ inspectable.
 |---|---|
 | [Whitepaper](https://www.archliquid.com/whitepaper) | The protocol thesis, RWA distributor model, value accrual, security model, Robinhood Chain rationale, and roadmap. |
 | [Contracts](https://github.com/ArchLiquid/archliquid-contracts) | The composed Foundry workspace, pinned module releases, integration tests, and testnet deployment manifest. |
-| [Developer documentation](https://github.com/ArchLiquid/archliquid-documentation) | Product concepts, contract references, and integration guides. |
-| [TypeScript SDK](https://github.com/ArchLiquid/archliquid-sdk) | Typed ABIs, chain metadata, addresses, and public client helpers. |
+| [Developer documentation](https://github.com/ArchLiquid/archliquid-documentation) | An index of EVM module guides, deployment records, and Solana integration documentation. |
+| [Solana TypeScript SDK](https://github.com/ArchLiquid/archliquid-sdk) | Typed instructions, account decoders, quotes, IDLs, and devnet identities for ArchCurve, ArchSwap, and ArchLocker. |
+
+For EVM integration, start with the composed contracts and each module's guide.
+The TypeScript SDK currently supports Solana devnet; it does not provide EVM
+ABIs or a verified mainnet deployment registry.
 
 ## Protocol modules
 
